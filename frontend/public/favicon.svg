@@ -1,0 +1,28 @@
+<svg width="128" height="128" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="42" height="42" rx="12" fill="#030303" stroke="url(#borderGradient)" stroke-width="1" />
+  
+  <path d="M14 12V30" stroke="url(#pinkGlow)" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M28 12V30" stroke="url(#cyanGlow)" stroke-width="3.5" stroke-linecap="round" />
+  
+  <path d="M14 24L28 18" stroke="url(#centerGlow)" stroke-width="3.5" stroke-linecap="round" />
+  <circle cx="28" cy="12" r="2.5" fill="#ffffff" />
+
+  <defs>
+    <linearGradient id="pinkGlow" x1="14" y1="12" x2="14" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff2d78" />
+      <stop offset="1" stop-color="#ff2d78" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="28" y1="30" x2="28" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06b6d4" />
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="centerGlow" x1="14" y1="24" x2="28" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff2d78" />
+      <stop offset="1" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="borderGradient" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(255,255,255,0.25)" />
+      <stop offset="1" stop-color="rgba(255,255,255,0.02)" />
+    </linearGradient>
+  </defs>
+</svg>
